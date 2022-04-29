@@ -1,0 +1,9 @@
+#!/bin/bash
+
+PEDANTCOMMAND="${MPATH}/pedant"
+
+FORMULA=$1
+
+PEDANT_OPTIONS="--default-strat=values"
+
+$PEDANTCOMMAND $PEDANT_OPTIONS $FORMULA
